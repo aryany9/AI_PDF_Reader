@@ -32,10 +32,6 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", google_api_key=os.getenv("GEMINI_API_KEY"))
 
 
-print("Indexing Done")
-
-
-
 # Use the Google Generative AI model to generate a response
 while True:
     print("1. store")
@@ -85,15 +81,3 @@ while True:
         break
     else:
         print("Invalid choice. Please enter 'store' or 'ask'.")
-    
-        
-        
-# Print the response from the model
-# print("Search Result:", search_result)
-
-def main():
-    print("Hello from ai-pdf-reader!")
-
-
-if __name__ == "__main__":
-    main()
