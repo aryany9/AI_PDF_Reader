@@ -119,6 +119,13 @@ Just type `store` or `ask` accordingly!
 ├── README.md                 # Project documentation
 ├── uv.lock                   # Dependency lock file (for uv users)
 ```
+---
+
+## 📊 Workflow Overview
+
+Refer to the following diagram for a visual representation of the workflow:
+
+![Workflow Diagram](flow.png)
 
 ---
 
@@ -145,3 +152,5 @@ See the `LICENSE` file for more information.
 
 Contributions are welcome!  
 Please feel free to **open an issue** or **submit a pull request** for enhancements, bug fixes, or documentation improvements.
+
+---
